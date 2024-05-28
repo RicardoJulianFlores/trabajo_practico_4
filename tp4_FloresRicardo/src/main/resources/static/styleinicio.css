@@ -1,0 +1,142 @@
+@charset "UTF-8";
+.navbar{
+    background-color: #03082f;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    font-style: italic;
+    width: 50%;
+    height: 80%;
+}
+.logo img{
+	margin-left: 5%;
+    margin-right: 5%;
+}
+.titulos{
+    font-size: 60%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+body{
+	margin:0;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+.menu ul li a:hover{
+    background-color:white;
+    color : #03082f;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+aside{
+	background-color: #03082f;
+    padding: 5px 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin:20px;
+    border-radius: 10px;
+    display:grid;
+    left:0;
+    position: fixed;
+}
+aside a{
+	text-decoration: none;
+	color:white;
+}
+
+section{
+	margin:50px;
+	text-align: center;
+}
+section img{
+	width: 50%;
+}
+footer {
+    background-color: #03082f;
+    color: white;
+    padding: 5px 30px;
+    letter-spacing: 1px;
+    display: block;
+    gap: 10%;
+    font-size: 20px;
+    justify-content: center;
+}
+footer div{
+	display: flex;
+	gap:20%;
+}
+footer div div{
+	display: block;
+}
+footer ul li a{
+	text-decoration: none;
+	color:white;
+}
+
+.news section {
+    border-radius: 20px;
+    background-color: white;
+    transition: 0.8s;
+    margin: 20px;
+    width: 50%;
+    height: 200%;
+}
+
+.news :hover{
+    scale: 1.2;
+    box-shadow: 0 0 10px #03082f;
+}
+
+.news section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.news{
+    display: flex;
+}
+.news section h2{
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 10px;
+}
+.news section h1{
+    font-size: 20px;
+}
+
+.news section h1:hover{
+    scale: none;
+    box-shadow: none;
+}
+.news section h2:hover{
+    scale: none;
+    box-shadow: none;
+}
+
+.news section a {
+    color : black;
+    text-decoration: none ;
+}
+
+.news img:hover{
+    scale: none;
+    box-shadow: none;
+}
+h1{
+	text-align: center;
+}
